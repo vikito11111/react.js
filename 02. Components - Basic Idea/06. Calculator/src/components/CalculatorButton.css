@@ -1,0 +1,96 @@
+.calculator-container {
+    width: 360px;
+    padding: 20px;
+    border: 6px solid #333333cd;
+    background-color: #1c1c1c;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Optional: add a shadow for depth */
+}
+
+.display-result {
+    background-color: #efe9e9e8;
+    color: #000000e9;
+    padding: 35px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-style: italic;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.calculator-button-calculate {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #40de46;
+    color: white;
+    width: 95%;
+    height: 65px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.calculator-button-operation {
+    width: 120px;
+    height: 60px;
+    margin: 3px;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #004080;
+    font-size: 20px;
+}
+
+.calculator-button {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #000000e9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculator-button-zero {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #000000e9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculator-button-clear {
+    width: 140px;
+    height: 70px;
+    margin-top: 10px;
+    font-size: larger;
+    border-radius: 5px;
+    border: 3px solid #d21111;
+    background-color: rgba(250, 28, 28, 0.903);
+}
+
+.calculator-button-calculate:hover {
+    background-color: #40de459e;
+}
+
+.calculator-button-operation:hover {
+    background-color: #001efff1;
+}
+
+.calculator-button:hover {
+    background-color: #ffffffaf;
+}
+
+.calculator-button-zero:hover {
+    background-color: #ffffffaf;
+}
+
+.calculator-button-clear:hover {
+    background-color: rgba(250, 28, 28, 0.758);
+}
